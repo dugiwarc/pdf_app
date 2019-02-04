@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133714995-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anna Botnaru</title>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133714995-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-133714995-1');
-</script>
-
-    <title>Anna Botnaru</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <img src="../images/0001.jpg">
-  </body>
+    gtag('config', 'UA-133714995-1');
+  </script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#sec1">Main</a></li>
+      <li><a href="#sec2">Timeline</a></li>
+      <li><a href="#sec3">Contact</a></li>
+    </ul>
+  </nav>
+<section id="sec1" data-text="Section 1">
+  <img src="images/main.jpg">
+</section>
+<section id="sec2" data-text="Section 2"><img src="images/anna_timeline_final.jpg"></section>
+<section id="sec3" data-text="Section 3"><div class="btn"><a href="images/AnnaBotnaruCV-compressed.pdf" download="resume">GET CV</a></div></section>
+</body>
 </html>
